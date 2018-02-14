@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Page_Login/span_Username'))
 
 WebUI.setText(findTestObject('Page_Login/input_txtUsername'), 'admin')
 
-WebUI.setText(findTestObject('Page_Login/input_txtPassword'), 'admin')
+WebUI.setText(findTestObject('Page_Login/input_txtPassword'), 'teste')
 
 WebUI.click(findTestObject('Page_Login/input_Submit'))
 
