@@ -28,11 +28,11 @@ WebUI.click(findTestObject('Page_Login/span_Username'))
 
 WebUI.setText(findTestObject('Page_Login/input_txtUsername'), 'admin')
 
-WebUI.setText(findTestObject('Page_Login/input_txtPassword'), 'teste')
+WebUI.setText(findTestObject('Page_Login/input_txtPassword'), 'admin')
 
 WebUI.click(findTestObject('Page_Login/input_Submit'))
 
-WebUI.waitForElementVisible(findTestObject('Page_Login/a_Welcome Admin'), 0)
+WebUI.waitForElementVisible(findTestObject('Page_Login/a_Welcome Admin'), 10)
 
 WebUI.verifyElementText(findTestObject('Page_Login/a_Welcome Admin'), 'Welcome Admin')
 

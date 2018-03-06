@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="23" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="23" timestamp="2018-03-06 13:24:19" hostname="saomflau - SAOM4271.americas.ad.flextronics.com" id="Test Suites/Login/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\saomflau\\Desktop\\Teste\\katalon\\Reports\\Login\\Login\\20180306_132416"/>
+         <property name="logFiles" value="C:\\Users\\saomflau\\Desktop\\Teste\\katalon\\Reports\\Login\\Login\\20180306_132416\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="saomflau - SAOM4271.americas.ad.flextronics.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.110.5.53"/>
+         <property name="sessionId" value="800687b29b6c559684be7f0ce5ceaa29"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login valido" classname="Test Cases/Login valido" status="PASSED">
+         <system-out><![CDATA[2018-03-06 13:24:19 - [TEST_CASE][PASSED] - Test Cases/Login valido: Test Cases/Login valido
+
+2018-03-06 13:24:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-06 13:24:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-06 13:24:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-03-06 13:24:27 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-03-06 13:24:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/span_Username' is clicked on
+
+2018-03-06 13:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_Username' is clicked on
+
+2018-03-06 13:24:27 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_txtUsername'
+
+2018-03-06 13:24:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_txtUsername'
+
+2018-03-06 13:24:28 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_txtPassword'
+
+2018-03-06 13:24:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_txtPassword'
+
+2018-03-06 13:24:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/input_Submit' is clicked on
+
+2018-03-06 13:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Submit' is clicked on
+
+2018-03-06 13:24:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Login/a_Welcome Admin' is visible
+
+2018-03-06 13:24:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/a_Welcome Admin' is visible
+
+2018-03-06 13:24:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Page_Login/a_Welcome Admin' are matched.
+
+2018-03-06 13:24:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Login/a_Welcome Admin' are matched.
+
+2018-03-06 13:24:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-06 13:24:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login invalido" classname="Test Cases/Login invalido" status="PASSED">
+         <system-out><![CDATA[2018-03-06 13:24:33 - [TEST_CASE][PASSED] - Test Cases/Login invalido: Test Cases/Login invalido
+
+2018-03-06 13:24:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-06 13:24:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-06 13:24:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-03-06 13:24:39 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-03-06 13:24:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/span_Username' is clicked on
+
+2018-03-06 13:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_Username' is clicked on
+
+2018-03-06 13:24:39 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_txtUsername'
+
+2018-03-06 13:24:39 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_txtUsername'
+
+2018-03-06 13:24:39 - [TEST_STEP][PASSED] - setText: Text 'teste' is set on object 'Object Repository/Page_Login/input_txtPassword'
+
+2018-03-06 13:24:40 - [MESSAGE][PASSED] - Text 'teste' is set on object 'Object Repository/Page_Login/input_txtPassword'
+
+2018-03-06 13:24:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/input_Submit' is clicked on
+
+2018-03-06 13:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Submit' is clicked on
+
+2018-03-06 13:24:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Login/span_Invalid credentials' is present
+
+2018-03-06 13:24:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_Invalid credentials' is present
+
+2018-03-06 13:24:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-06 13:24:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-06 13:24:19 - [TEST_SUITE][PASSED] - Login: Test Cases/Login invalido]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
