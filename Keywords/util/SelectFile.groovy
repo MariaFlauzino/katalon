@@ -33,38 +33,56 @@ import java.awt.Window
 import java.awt.datatransfer.StringSelection
 import java.awt.event.KeyEvent
 import java.awt.event.WindowFocusListener
+
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.support.ui.Wait
+
 import java.awt.event.ComponentEvent
 import java.awt.event.*;
 
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-@Keyword
-def Arquivo(TestObject to, String filePath) {
 
-	WebUI.click(to)
-	
-	StringSelection ss = new StringSelection(filePath);
-	
-	//Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
-	
+@Keyword
+def SelectFile(TestObject to, String filePath, String nameFile) {
 	Robot robot = new Robot();
 	
-	robot.mouseMove(390,60);
-	robot.mousePress(InputEvent.BUTTON_DOWN_MASK);
-	robot.mouseRelease(InputEvent.BUTTON_DOWN_MASK);
-	
-	robot.wait(1);
-	
+	WebUI.click(to)
+	setPathFile (robot, filePath);
+	pastValue(robot);
+	WebUI.waitForAlert(1);
+	setNameFile(robot, nameFile);
+	pastValue(robot);
+}
+
+def setPathFile (Robot robot, String filePath){
+	//muda o foco para o caminho do arquivo
+	StringSelection ss = new StringSelection(filePath);
+	robot.keyPress(KeyEvent.VK_ALT);
+	robot.keyPress(KeyEvent.VK_D);
+	robot.keyRelease(KeyEvent.VK_ALT);
+	robot.keyRelease(KeyEvent.VK_D);
 	Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
-	
-	
-	robot.keyPress(KeyEvent.VK_ENTER);
-	robot.keyRelease(KeyEvent.VK_ENTER);
+}
+
+def setNameFile(Robot robot, String nameFile){
+	//muda o foco para o nome do arquivo
+	StringSelection nf = new StringSelection(nameFile);
+	robot.keyPress(KeyEvent.VK_ALT);
+	robot.keyPress(KeyEvent.VK_N);
+	robot.keyRelease(KeyEvent.VK_ALT);
+	robot.keyRelease(KeyEvent.VK_N);
+	Toolkit.getDefaultToolkit().getSystemClipboard().setContents(nf, null);
+}
+
+def pastValue(Robot robot){
 	robot.keyPress(KeyEvent.VK_CONTROL);
 	robot.keyPress(KeyEvent.VK_V);
 	robot.keyRelease(KeyEvent.VK_V);
 	robot.keyRelease(KeyEvent.VK_CONTROL);
 	robot.keyPress(KeyEvent.VK_ENTER);
-	robot.keyRelease(KeyEvent.VK_ENTER);
 }
+	
+
+

@@ -34,5 +34,8 @@ WebUI.click(findTestObject('Page_Employee/teste/b_PIM'))
 
 WebUI.click(findTestObject('Page_Employee/teste/a_Add Employee'))
 
-CustomKeywords.'util.Arquivo.Arquivo'(findTestObject('Page_Employee/teste/input_photofile'), 'C:/Users/saomflau/Desktop/Teste/katalon/Data Files/Images/Employee.PNG')
+WebUI.click(findTestObject('Page_Employee/input_btnSave'))
+
+CustomKeywords.'util.SelectFile.SelectFile'(findTestObject('Page_Employee/teste/input_photofile'), 'C:\\Users\\saomflau\\Desktop\\Teste\\katalon\\Data Files\\Images', 
+    'Firefox.PNG')
 

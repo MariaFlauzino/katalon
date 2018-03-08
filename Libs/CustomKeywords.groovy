@@ -8,10 +8,12 @@ import com.kms.katalon.core.testobject.TestObject
 import java.lang.String
 
 
-def static "util.Arquivo.Arquivo"(
+def static "util.SelectFile.SelectFile"(
     	TestObject to	
-     , 	String filePath	) {
-    (new util.Arquivo()).Arquivo(
+     , 	String filePath	
+     , 	String nameFile	) {
+    (new util.SelectFile()).SelectFile(
         	to
-         , 	filePath)
+         , 	filePath
+         , 	nameFile)
 }
