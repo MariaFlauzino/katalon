@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Employee" time="26" tests="1" failures="0" errors="0">
+   <testsuite name="Employee" tests="1" failures="0" errors="0" time="26" timestamp="2018-03-07 13:40:47" hostname="saomflau - SAOM4271.americas.ad.flextronics.com" id="Test Suites/Employee/Employee">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\saomflau\\Desktop\\Teste\\katalon\\Reports\\Employee\\Employee\\20180307_134045"/>
+         <property name="logFiles" value="C:\\Users\\saomflau\\Desktop\\Teste\\katalon\\Reports\\Employee\\Employee\\20180307_134045\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="saomflau - SAOM4271.americas.ad.flextronics.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="10.110.6.13"/>
+         <property name="sessionId" value="3fc786c5d810c709bf241212b275c774"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Employee/AddEmployee" classname="Test Cases/Employee/AddEmployee" status="PASSED">
+         <system-out><![CDATA[2018-03-07 13:40:48 - [TEST_CASE][PASSED] - Test Cases/Employee/AddEmployee: Test Cases/Employee/AddEmployee
+
+2018-03-07 13:40:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/General/Login' successfully
+
+2018-03-07 13:40:49 - [TEST_CASE][PASSED] - Test Cases/General/Login: Test Cases/General/Login
+
+2018-03-07 13:40:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-07 13:40:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-07 13:40:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-03-07 13:40:57 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-03-07 13:40:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-07 13:40:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-07 13:40:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/span_Username' is clicked on
+
+2018-03-07 13:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_Username' is clicked on
+
+2018-03-07 13:40:59 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_txtUsername'
+
+2018-03-07 13:40:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_txtUsername'
+
+2018-03-07 13:40:59 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_txtPassword'
+
+2018-03-07 13:40:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_txtPassword'
+
+2018-03-07 13:40:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/input_Submit' is clicked on
+
+2018-03-07 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Submit' is clicked on
+
+2018-03-07 13:41:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/General/Login' successfully
+
+2018-03-07 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Employee/b_PIM' is clicked on
+
+2018-03-07 13:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Employee/b_PIM' is clicked on
+
+2018-03-07 13:41:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Employee/a_Add Employee' is clicked on
+
+2018-03-07 13:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Employee/a_Add Employee' is clicked on
+
+2018-03-07 13:41:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'Caio' sent to object: 'Object Repository/Page_Employee/input_firstName'
+
+2018-03-07 13:41:06 - [MESSAGE][PASSED] - Keys 'Caio' sent to object: 'Object Repository/Page_Employee/input_firstName'
+
+2018-03-07 13:41:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'Almeida' sent to object: 'Object Repository/Page_Employee/input_middleName'
+
+2018-03-07 13:41:06 - [MESSAGE][PASSED] - Keys 'Almeida' sent to object: 'Object Repository/Page_Employee/input_middleName'
+
+2018-03-07 13:41:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'Jr' sent to object: 'Object Repository/Page_Employee/input_lastName'
+
+2018-03-07 13:41:07 - [MESSAGE][PASSED] - Keys 'Jr' sent to object: 'Object Repository/Page_Employee/input_lastName'
+
+2018-03-07 13:41:07 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_Employee/input_chkLogin' is checked
+
+2018-03-07 13:41:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Employee/input_chkLogin' is checked
+
+2018-03-07 13:41:07 - [TEST_STEP][PASSED] - sendKeys: Keys 'Cjunior' sent to object: 'Object Repository/Page_Employee/input_user_name'
+
+2018-03-07 13:41:07 - [MESSAGE][PASSED] - Keys 'Cjunior' sent to object: 'Object Repository/Page_Employee/input_user_name'
+
+2018-03-07 13:41:07 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Page_Employee/input_user_password'
+
+2018-03-07 13:41:07 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Employee/input_user_password'
+
+2018-03-07 13:41:07 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Page_Employee/input_re_password'
+
+2018-03-07 13:41:07 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Employee/input_re_password'
+
+2018-03-07 13:41:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Enabled' are selected in object 'Object Repository/Page_Employee/select_EnabledDisabled' 
+
+2018-03-07 13:41:07 - [MESSAGE][PASSED] - All options with value 'Enabled' are selected in object 'Object Repository/Page_Employee/select_EnabledDisabled' 
+
+2018-03-07 13:41:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Employee/input_btnSave' is clicked on
+
+2018-03-07 13:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Employee/input_btnSave' is clicked on
+
+2018-03-07 13:41:12 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_Employee/h1_Personal Details' is visible
+
+2018-03-07 13:41:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Employee/h1_Personal Details' is visible
+
+2018-03-07 13:41:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/General/Logout and Close' successfully
+
+2018-03-07 13:41:12 - [TEST_CASE][PASSED] - Test Cases/General/Logout and Close: Test Cases/General/Logout and Close
+
+2018-03-07 13:41:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/a_Welcome Admin' is clicked on
+
+2018-03-07 13:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/a_Welcome Admin' is clicked on
+
+2018-03-07 13:41:12 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_Login/a_Logout' is hovered
+
+2018-03-07 13:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/a_Logout' is hovered
+
+2018-03-07 13:41:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/a_Logout' is clicked on
+
+2018-03-07 13:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/a_Logout' is clicked on
+
+2018-03-07 13:41:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-07 13:41:14 - [MESSAGE][PASSED] - Browser is closed
+
+2018-03-07 13:41:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/General/Logout and Close' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-07 13:40:47 - [TEST_SUITE][PASSED] - Employee: Test Cases/Employee/AddEmployee]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

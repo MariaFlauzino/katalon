@@ -1,61 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Welcome Admin</name>
+   <name>input_btnSave</name>
    <tag></tag>
-   <elementGuidId>f5a658f5-9e46-4141-aed6-61a022827709</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;welcome&quot;]</value>
-      </entry>
-   </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>6d28b23a-0ec2-427d-a52e-3ecb669a62b0</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>type</name>
       <type>Main</type>
-      <value>#</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>welcome</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>panelTrigger</value>
+      <value>hover</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Welcome Admin</value>
+      <value>btnSave</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Save</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;welcome&quot;)</value>
+      <value>id(&quot;btnSave&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
