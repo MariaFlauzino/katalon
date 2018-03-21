@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5e3c895e-1070-45d2-8a62-9b2f9373ac18</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>09ab4861-c428-4b11-9ad8-b3df92db0243</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f40e743f-7577-4540-b272-ed9512155d82</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>912ecbdf-64e1-40cb-bd31-3a6da769eb9c</id>
+      <masked>false</masked>
+      <name>checkLogin</name>
+   </variable>
 </TestCaseEntity>

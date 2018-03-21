@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 64.0.3282.186,,2018-03-19 21:22:04,2018-03-19 21:23:13,"1m - 8,887s",FAILED
+,,,,,,
+Test Cases/Login/Login invalido,Chrome 64.0.3282.186,,2018-03-19 21:22:05,2018-03-19 21:22:52,"47,624s",FAILED
+openBrowser,Chrome 64.0.3282.186,,2018-03-19 21:22:05,2018-03-19 21:22:12,"6,594s",PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-19 21:22:12,2018-03-19 21:22:18,"5,592s",PASSED
+maximizeWindow,Chrome 64.0.3282.186,,2018-03-19 21:22:18,2018-03-19 21:22:19,"1,169s",PASSED
+click,Chrome 64.0.3282.186,,2018-03-19 21:22:19,2018-03-19 21:22:19,"0,294s",PASSED
+setText,Chrome 64.0.3282.186,,2018-03-19 21:22:19,2018-03-19 21:22:19,"0,392s",PASSED
+setText,Chrome 64.0.3282.186,,2018-03-19 21:22:19,2018-03-19 21:22:20,"0,214s",PASSED
+click,Chrome 64.0.3282.186,,2018-03-19 21:22:20,2018-03-19 21:22:20,"0,700s",PASSED
+verifyElementPresent,Chrome 64.0.3282.186,,2018-03-19 21:22:20,2018-03-19 21:22:20,"0,063s",PASSED
+"Statement - !(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Login/a_Welcome Admin), checkLogin))",Chrome 64.0.3282.186,,2018-03-19 21:22:20,2018-03-19 21:22:52,"31,908s",FAILED
+,,,,,,
+Test Cases/Login/Login valido,Chrome 64.0.3282.186,,2018-03-19 21:22:52,2018-03-19 21:23:12,"19,736s",FAILED
+openBrowser,Chrome 64.0.3282.186,,2018-03-19 21:22:53,2018-03-19 21:22:59,"6,036s",PASSED
+navigateToUrl,Chrome 64.0.3282.186,,2018-03-19 21:22:59,2018-03-19 21:23:07,"8,257s",PASSED
+maximizeWindow,Chrome 64.0.3282.186,,2018-03-19 21:23:07,2018-03-19 21:23:08,"1,129s",PASSED
+click,Chrome 64.0.3282.186,,2018-03-19 21:23:08,2018-03-19 21:23:08,"0,158s",PASSED
+setText,Chrome 64.0.3282.186,,2018-03-19 21:23:08,2018-03-19 21:23:08,"0,177s",PASSED
+setText,Chrome 64.0.3282.186,,2018-03-19 21:23:08,2018-03-19 21:23:09,"0,188s",PASSED
+click,Chrome 64.0.3282.186,,2018-03-19 21:23:09,2018-03-19 21:23:10,"1,581s",PASSED
+waitForElementVisible,Chrome 64.0.3282.186,,2018-03-19 21:23:10,2018-03-19 21:23:11,"1,156s",PASSED
+verifyElementText,Chrome 64.0.3282.186,,2018-03-19 21:23:11,2018-03-19 21:23:12,"0,667s",FAILED

@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0981e98b-b89a-4e15-a717-b5b3bc311e4b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData/TestData').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>bff9cb91-4754-424c-a549-41af78ad860e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('TestData/TestData').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>b14d90f9-e87d-45aa-849a-b5bd1c89a4c4</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

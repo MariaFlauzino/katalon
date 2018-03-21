@@ -45,24 +45,28 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 
 @Keyword
-def SelectFile(TestObject to, String filePath, String nameFile) {
+def SelectFile(TestObject to, String relativePath, String nameFile) {
 	Robot robot = new Robot();
-	
+	robot.setAutoDelay(1000);
+
 	WebUI.click(to)
-	setPathFile (robot, filePath);
+	setPathFile (robot, relativePath);
 	pastValue(robot);
 	WebUI.waitForAlert(1);
 	setNameFile(robot, nameFile);
 	pastValue(robot);
 }
 
-def setPathFile (Robot robot, String filePath){
+def setPathFile (Robot robot, String relativePath){
 	//muda o foco para o caminho do arquivo
-	StringSelection ss = new StringSelection(filePath);
+
+	StringSelection ss = new StringSelection(fullPath(relativePath));
+	
+	robot.delay(100);
 	robot.keyPress(KeyEvent.VK_ALT);
-	robot.keyPress(KeyEvent.VK_D);
+	robot.keyPress(KeyEvent.VK_E);
 	robot.keyRelease(KeyEvent.VK_ALT);
-	robot.keyRelease(KeyEvent.VK_D);
+	robot.keyRelease(KeyEvent.VK_E);
 	Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 }
 
@@ -82,6 +86,12 @@ def pastValue(Robot robot){
 	robot.keyRelease(KeyEvent.VK_V);
 	robot.keyRelease(KeyEvent.VK_CONTROL);
 	robot.keyPress(KeyEvent.VK_ENTER);
+}
+
+def String fullPath (String relativePath){
+
+	String userDir = System.getProperty("user.dir");
+	String filePath = userDir + relativePath;
 }
 	
 

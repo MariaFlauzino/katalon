@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="68" tests="0" failures="2" errors="0">
+   <testsuite name="Login" tests="0" failures="2" errors="0" time="68" timestamp="2018-03-19 21:22:04" hostname="Maria - Flauzino" id="Test Suites/Login/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Maria\\git\\katalon\\Reports\\Login\\Login\\20180319_212201"/>
+         <property name="logFiles" value="C:\\Users\\Maria\\git\\katalon\\Reports\\Login\\Login\\20180319_212201\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Maria\\git\\katalon\\Reports\\Login\\Login\\20180319_212201\\1521505371975.png, C:\\Users\\Maria\\git\\katalon\\Reports\\Login\\Login\\20180319_212201\\1521505372440.png, C:\\Users\\Maria\\git\\katalon\\Reports\\Login\\Login\\20180319_212201\\1521505391896.png, C:\\Users\\Maria\\git\\katalon\\Reports\\Login\\Login\\20180319_212201\\1521505392233.png"/>
+         <property name="hostName" value="Maria - Flauzino"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 64.0.3282.186"/>
+         <property name="hostAddress" value="192.168.0.15"/>
+         <property name="sessionId" value="850a7986b8627aa48db98a8b1f0d4835"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login invalido" classname="Test Cases/Login/Login invalido" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Login/a_Welcome Admin' located by 'By.xpath: //*[@id=&quot;welcome&quot;]' not found)"/>
+         <system-out><![CDATA[2018-03-19 21:22:05 - [TEST_CASE][FAILED] - Test Cases/Login/Login invalido: Test Cases/Login/Login invalido FAILED because (of) Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Login/a_Welcome Admin' located by 'By.xpath: //*[@id="welcome"]' not found)
+
+2018-03-19 21:22:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-19 21:22:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-19 21:22:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-03-19 21:22:18 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-03-19 21:22:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-19 21:22:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-19 21:22:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/span_Username' is clicked on
+
+2018-03-19 21:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_Username' is clicked on
+
+2018-03-19 21:22:19 - [TEST_STEP][PASSED] - setText: Text 'teste' is set on object 'Object Repository/Page_Login/input_txtUsername'
+
+2018-03-19 21:22:19 - [MESSAGE][PASSED] - Text 'teste' is set on object 'Object Repository/Page_Login/input_txtUsername'
+
+2018-03-19 21:22:19 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_txtPassword'
+
+2018-03-19 21:22:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_txtPassword'
+
+2018-03-19 21:22:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/input_Submit' is clicked on
+
+2018-03-19 21:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Submit' is clicked on
+
+2018-03-19 21:22:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Login/span_Invalid credentials' is present
+
+2018-03-19 21:22:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-19 21:22:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/span_Invalid credentials' is present
+
+2018-03-19 21:22:20 - [TEST_STEP][FAILED] - Statement - !(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_Login/a_Welcome Admin), checkLogin)): Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Login/a_Welcome Admin' located by 'By.xpath: //*[@id="welcome"]' not found)
+
+2018-03-19 21:22:52 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Login/a_Welcome Admin' located by 'By.xpath: //*[@id="welcome"]' not found
+[[ATTACHMENT|C:\\Users\\Maria\\git\\katalon\\Reports\\Login\\Login\\20180319_212201\\1521505371975.png]]
+
+2018-03-19 21:22:52 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Login/a_Welcome Admin' located by 'By.xpath: //*[@id="welcome"]' not found)
+[[ATTACHMENT|C:\\Users\\Maria\\git\\katalon\\Reports\\Login\\Login\\20180319_212201\\1521505372440.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-19 21:22:05 - [TEST_CASE][FAILED] - Test Cases/Login/Login invalido: Test Cases/Login/Login invalido FAILED because (of) Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Login/a_Welcome Admin' located by 'By.xpath: //*[@id="welcome"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login valido" classname="Test Cases/Login/Login valido" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: Actual text 'Welcome Admin' and expected text 'Welcome admin' of test object 'Object Repository/Page_Login/a_Welcome Admin' are NOT matched.)"/>
+         <system-out><![CDATA[2018-03-19 21:22:52 - [TEST_CASE][FAILED] - Test Cases/Login/Login valido: Test Cases/Login/Login valido FAILED because (of) Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: Actual text 'Welcome Admin' and expected text 'Welcome admin' of test object 'Object Repository/Page_Login/a_Welcome Admin' are NOT matched.)
+
+2018-03-19 21:22:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-19 21:22:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-19 21:22:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-19 21:22:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-03-19 21:23:07 - [MESSAGE][PASSED] - Navigate to 'http://opensource.demo.orangehrmlive.com/index.php/auth/login' successfully
+
+2018-03-19 21:23:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-19 21:23:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-19 21:23:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/span_Username' is clicked on
+
+2018-03-19 21:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/span_Username' is clicked on
+
+2018-03-19 21:23:08 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_txtUsername'
+
+2018-03-19 21:23:08 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_txtUsername'
+
+2018-03-19 21:23:08 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_Login/input_txtPassword'
+
+2018-03-19 21:23:09 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_Login/input_txtPassword'
+
+2018-03-19 21:23:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/input_Submit' is clicked on
+
+2018-03-19 21:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/input_Submit' is clicked on
+
+2018-03-19 21:23:10 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_Login/a_Welcome Admin' is visible
+
+2018-03-19 21:23:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Login/a_Welcome Admin' is visible
+
+2018-03-19 21:23:11 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: Actual text 'Welcome Admin' and expected text 'Welcome admin' of test object 'Object Repository/Page_Login/a_Welcome Admin' are NOT matched.)
+
+2018-03-19 21:23:12 - [MESSAGE][FAILED] - Actual text 'Welcome Admin' and expected text 'Welcome admin' of test object 'Object Repository/Page_Login/a_Welcome Admin' are NOT matched.
+[[ATTACHMENT|C:\\Users\\Maria\\git\\katalon\\Reports\\Login\\Login\\20180319_212201\\1521505391896.png]]
+
+2018-03-19 21:23:12 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: Actual text 'Welcome Admin' and expected text 'Welcome admin' of test object 'Object Repository/Page_Login/a_Welcome Admin' are NOT matched.)
+[[ATTACHMENT|C:\\Users\\Maria\\git\\katalon\\Reports\\Login\\Login\\20180319_212201\\1521505392233.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-19 21:22:52 - [TEST_CASE][FAILED] - Test Cases/Login/Login valido: Test Cases/Login/Login valido FAILED because (of) Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: Actual text 'Welcome Admin' and expected text 'Welcome admin' of test object 'Object Repository/Page_Login/a_Welcome Admin' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-19 21:22:04 - [TEST_SUITE][FAILED] - Login: Test Cases/Login/Login invalido FAILED because (of) Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Login/a_Welcome Admin' located by 'By.xpath: //*[@id="welcome"]' not found)]]></system-out>
+      <system-err><![CDATA[2018-03-19 21:22:04 - [TEST_SUITE][FAILED] - Login: Test Cases/Login/Login invalido FAILED because (of) Verify element text of test object 'Object Repository/Page_Login/a_Welcome Admin' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Login/a_Welcome Admin' located by 'By.xpath: //*[@id="welcome"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

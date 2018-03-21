@@ -31,16 +31,18 @@ WebUI.sendKeys(findTestObject('Page_Employee/input_middleName'), MiddleName)
 
 WebUI.sendKeys(findTestObject('Page_Employee/input_lastName'), LastName)
 
-if (CreateLoginDetails == "yes") {
-	WebUI.check(findTestObject('Page_Employee/input_chkLogin'))
-	
-	WebUI.sendKeys(findTestObject('Page_Employee/input_user_name'), UserName)
-	
-	WebUI.setText(findTestObject('Page_Employee/input_user_password'), Password)
-	
-	WebUI.setText(findTestObject('Page_Employee/input_re_password'), ConfirmPassword)
-	
-	WebUI.selectOptionByValue(findTestObject('Page_Employee/select_EnabledDisabled'), Status, false)
+CustomKeywords.'util.SelectFile.SelectFile'(findTestObject('Page_Employee/input_photofile'), '\\Data Files\\Images', 'Firefox.PNG')
+
+if (CreateLoginDetails == 'yes') {
+    WebUI.check(findTestObject('Page_Employee/input_chkLogin'))
+
+    WebUI.sendKeys(findTestObject('Page_Employee/input_user_name'), UserName)
+
+    WebUI.setText(findTestObject('Page_Employee/input_user_password'), Password)
+
+    WebUI.setText(findTestObject('Page_Employee/input_re_password'), ConfirmPassword)
+
+    WebUI.selectOptionByValue(findTestObject('Page_Employee/select_EnabledDisabled'), Status, false)
 }
 
 WebUI.click(findTestObject('Page_Employee/input_btnSave'))

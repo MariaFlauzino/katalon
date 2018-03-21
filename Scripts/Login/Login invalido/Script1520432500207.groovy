@@ -28,9 +28,9 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Page_Login/span_Username'))
 
-WebUI.setText(findTestObject('Page_Login/input_txtUsername'), 'admin')
+WebUI.setText(findTestObject('Page_Login/input_txtUsername'), username)
 
-WebUI.setText(findTestObject('Page_Login/input_txtPassword'), 'teste')
+WebUI.setText(findTestObject('Page_Login/input_txtPassword'), password)
 
 WebUI.click(findTestObject('Page_Login/input_Submit'))
 
