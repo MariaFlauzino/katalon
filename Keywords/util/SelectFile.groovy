@@ -45,7 +45,7 @@ def SelectFile(TestObject to, String relativePath, String nameFile) {
 	Robot robot = new Robot();
 	robot.setAutoDelay(500);
 
-	WebUI.click(to)
+	WebUI.click(to);
 	setPathFile (robot, relativePath);
 	pastValue(robot);
 	WebUI.waitForAlert(1);

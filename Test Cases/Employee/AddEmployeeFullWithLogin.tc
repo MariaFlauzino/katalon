@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>AddEmployee</name>
+   <name>AddEmployeeFullWithLogin</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>15626cf0-e01d-429c-ab86-1ec82b19cd74</testCaseGuid>
