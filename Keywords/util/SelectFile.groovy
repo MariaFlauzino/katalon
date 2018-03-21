@@ -21,7 +21,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 import com.sun.java.swing.plaf.windows.resources.windows
 
 import internal.GlobalVariable
-
+import sun.util.locale.provider.LocaleResources
 import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
@@ -40,14 +40,10 @@ import org.openqa.selenium.support.ui.Wait
 import java.awt.event.ComponentEvent
 import java.awt.event.*;
 
-import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-
 @Keyword
 def SelectFile(TestObject to, String relativePath, String nameFile) {
 	Robot robot = new Robot();
-	robot.setAutoDelay(1000);
+	robot.setAutoDelay(500);
 
 	WebUI.click(to)
 	setPathFile (robot, relativePath);
@@ -62,11 +58,18 @@ def setPathFile (Robot robot, String relativePath){
 
 	StringSelection ss = new StringSelection(fullPath(relativePath));
 	
-	robot.delay(100);
-	robot.keyPress(KeyEvent.VK_ALT);
-	robot.keyPress(KeyEvent.VK_E);
-	robot.keyRelease(KeyEvent.VK_ALT);
-	robot.keyRelease(KeyEvent.VK_E);
+	if(languageOS() == 'en_US'){
+		robot.keyPress(KeyEvent.VK_ALT);
+		robot.keyPress(KeyEvent.VK_D);
+		robot.keyRelease(KeyEvent.VK_ALT);
+		robot.keyRelease(KeyEvent.VK_D);
+	}else if (languageOS() == 'pt_BR'){
+		robot.keyPress(KeyEvent.VK_ALT);
+		robot.keyPress(KeyEvent.VK_D);
+		robot.keyRelease(KeyEvent.VK_ALT);
+		robot.keyRelease(KeyEvent.VK_D);
+	}
+	
 	Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null);
 }
 
@@ -89,10 +92,12 @@ def pastValue(Robot robot){
 }
 
 def String fullPath (String relativePath){
-
 	String userDir = System.getProperty("user.dir");
 	String filePath = userDir + relativePath;
 }
 	
+def String languageOS (){
+	String lan = Locale.getDefault();		
+}
 
 

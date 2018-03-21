@@ -13,13 +13,13 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\Maria\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Employee\\teste\\20180320_231817\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\saomflau\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Employee\\AddEmployee\\20180321_154115\\execution.properties')
 
 TestCaseMain.beforeStart()
 try {
     
-	    TestCaseMain.runTestCase('Test Cases/Employee/teste', new TestCaseBinding('Test Cases/Employee/teste', [:]), FailureHandling.STOP_ON_FAILURE )
+	    TestCaseMain.runTestCase('Test Cases/Employee/AddEmployee', new TestCaseBinding('Test Cases/Employee/AddEmployee', [:]), FailureHandling.STOP_ON_FAILURE )
     
 } catch (Exception e) {
-    TestCaseMain.logError(e, 'Test Cases/Employee/teste')
+    TestCaseMain.logError(e, 'Test Cases/Employee/AddEmployee')
 }

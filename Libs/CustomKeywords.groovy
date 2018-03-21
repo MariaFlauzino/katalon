@@ -10,10 +10,10 @@ import java.lang.String
 
 def static "util.SelectFile.SelectFile"(
     	TestObject to	
-     , 	String filePath	
+     , 	String relativePath	
      , 	String nameFile	) {
     (new util.SelectFile()).SelectFile(
         	to
-         , 	filePath
+         , 	relativePath
          , 	nameFile)
 }

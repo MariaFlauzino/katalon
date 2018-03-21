@@ -49,5 +49,5 @@ WebUI.click(findTestObject('Page_Employee/input_btnSave'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Employee/h1_Personal Details'))
 
-WebUI.callTestCase(findTestCase('General/Logout and Close'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('General/Logout and Close'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
