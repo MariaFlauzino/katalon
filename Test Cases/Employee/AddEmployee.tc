@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>AddEmployeeFullWithLogin</name>
+   <name>AddEmployee</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>15626cf0-e01d-429c-ab86-1ec82b19cd74</testCaseGuid>
    <variable>
-      <defaultValue>'Teste2'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>944febd3-9d77-4beb-bf6d-162501999570</id>
       <masked>false</masked>
       <name>FirstName</name>
    </variable>
    <variable>
-      <defaultValue>'Teste2'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>a6c93414-48e2-4172-83ec-3dbc25c29fae</id>
       <masked>false</masked>
       <name>MiddleName</name>
    </variable>
    <variable>
-      <defaultValue>'Teste2'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>65b9deee-b5e9-4a5f-82eb-abd5885df2e2</id>
       <masked>false</masked>
       <name>LastName</name>
    </variable>
    <variable>
-      <defaultValue>'yes'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>16116e4b-ac8e-4382-8487-7d929373e620</id>
       <masked>false</masked>
       <name>CreateLoginDetails</name>
    </variable>
    <variable>
-      <defaultValue>'Teste2'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>cb67d11e-577b-4899-9084-1ebc93a60287</id>
       <masked>false</masked>
       <name>UserName</name>
    </variable>
    <variable>
-      <defaultValue>'123456'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>552af0b9-ef38-4fb3-b35f-3fabe7ba5468</id>
       <masked>false</masked>
       <name>Password</name>
    </variable>
    <variable>
-      <defaultValue>'123456'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>3cafa3d2-8d42-4c39-9b2a-2715161320c7</id>
       <masked>false</masked>
       <name>ConfirmPassword</name>
    </variable>
    <variable>
-      <defaultValue>'Enabled'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>00b8f396-3b71-4f53-8540-2e9de52812ef</id>
       <masked>false</masked>
